@@ -9,7 +9,7 @@ var mainState = {
         game.load.image('pipe', 'assets/pipe.png');
 
         // Load the background music
-        game.load.audio('bkmusic', 'assets/sampleaudio.mp3');
+       //  game.load.audio('bkmusic', 'assets/sampleaudio.mp3');
 
         // Load the jump sound
         game.load.audio('jump', 'assets/jump.wav');
@@ -39,7 +39,7 @@ var mainState = {
 
         // Add the jump sound
         this.jumpSound = this.game.add.audio('jump');
-        this.playBkMusic = this.backgroundMusic('start');
+        // this.playBkMusic = this.backgroundMusic('start');
        
     },
 
